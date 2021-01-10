@@ -1,0 +1,277 @@
+2020-12-30 18:02:12.856 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 18:02:14.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 18:02:14.806 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 155.1096ms
+2020-12-30 18:02:14.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 18:02:15.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.4260ms
+2020-12-30 18:02:22.602 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 229
+2020-12-30 18:02:22.632 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:02:22.665 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 18:02:31.107 +05:30 [INF] api started
+2020-12-30 18:02:32.908 +05:30 [ERR] api ended with error
+2020-12-30 18:02:33.153 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 18:02:33.260 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 18:02:33.268 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-12-30 18:02:33.277 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 10603.1081ms
+2020-12-30 18:02:33.279 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:02:33.285 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 229 - 200 0 - 10683.1543ms
+2020-12-30 18:04:36.791 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 229
+2020-12-30 18:04:36.794 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:04:36.796 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 18:04:39.607 +05:30 [INF] api started
+2020-12-30 18:04:39.610 +05:30 [ERR] api ended with error
+2020-12-30 18:04:39.637 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 18:04:39.640 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 18:04:39.641 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-12-30 18:04:39.643 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 2845.6859ms
+2020-12-30 18:04:39.645 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:04:39.648 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 229 - 200 0 - 2856.8084ms
+2020-12-30 18:50:16.175 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 18:50:17.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 18:50:17.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 117.1434ms
+2020-12-30 18:50:18.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 18:50:18.299 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.8639ms
+2020-12-30 18:50:29.039 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 229
+2020-12-30 18:50:29.068 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:50:29.100 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 18:50:37.310 +05:30 [INF] api started
+2020-12-30 18:50:37.743 +05:30 [ERR] api ended with error
+2020-12-30 18:50:39.561 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 18:50:39.672 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 18:50:42.372 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'System.Int32'.
+2020-12-30 18:50:42.433 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 13322.6464ms
+2020-12-30 18:50:42.438 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:50:42.446 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 229 - 201 - application/json;+charset=utf-8 13404.5114ms
+2020-12-30 18:55:06.383 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 18:55:08.107 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 18:55:08.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 109.8813ms
+2020-12-30 18:55:08.337 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 18:55:08.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.9959ms
+2020-12-30 18:55:13.053 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 230
+2020-12-30 18:55:13.083 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:55:13.120 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 18:55:16.938 +05:30 [INF] api started
+2020-12-30 18:55:16.940 +05:30 [ERR] api ended with error
+2020-12-30 18:55:17.207 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 18:55:17.315 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 18:55:17.329 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 18:55:17.375 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 4247.721ms
+2020-12-30 18:55:17.377 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 18:55:17.381 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 230 - 201 - application/json;+charset=utf-8 4329.2481ms
+2020-12-30 19:07:45.945 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 19:07:47.801 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 19:07:47.924 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 125.4376ms
+2020-12-30 19:07:48.056 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 19:07:48.164 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.6201ms
+2020-12-30 19:10:50.471 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 19:10:52.189 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 19:10:52.303 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 116.5565ms
+2020-12-30 19:10:52.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 19:10:52.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.9057ms
+2020-12-30 19:10:59.110 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 232
+2020-12-30 19:10:59.140 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:10:59.172 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:10:59.310 +05:30 [INF] api started
+2020-12-30 19:10:59.313 +05:30 [ERR] api ended with error
+2020-12-30 19:10:59.548 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:10:59.658 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 19:10:59.674 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'System.String'.
+2020-12-30 19:10:59.716 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 535.2181ms
+2020-12-30 19:10:59.720 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:10:59.726 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 232 - 201 - text/plain;+charset=utf-8 615.5389ms
+2020-12-30 19:14:49.551 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 19:14:51.235 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 19:14:51.344 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 112.0163ms
+2020-12-30 19:14:51.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 19:14:51.560 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.1193ms
+2020-12-30 19:14:56.936 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 232
+2020-12-30 19:14:56.966 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:14:56.998 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:14:57.132 +05:30 [INF] api started
+2020-12-30 19:14:57.135 +05:30 [ERR] api ended with error
+2020-12-30 19:14:57.355 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:14:57.487 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 19:14:57.501 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-30 19:14:57.549 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 542.4665ms
+2020-12-30 19:14:57.551 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:14:57.556 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 232 - 201 - application/json;+charset=utf-8 620.3553ms
+2020-12-30 19:18:15.134 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 19:18:17.010 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 19:18:17.118 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 112.2994ms
+2020-12-30 19:18:17.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 19:18:17.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.2322ms
+2020-12-30 19:18:21.587 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 232
+2020-12-30 19:18:21.618 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:18:21.651 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:18:21.793 +05:30 [INF] api started
+2020-12-30 19:18:21.797 +05:30 [ERR] api ended with error
+2020-12-30 19:18:22.023 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:18:22.149 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 19:18:22.164 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 19:18:22.214 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 554.4778ms
+2020-12-30 19:18:22.217 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:18:22.221 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 232 - 201 - application/json;+charset=utf-8 635.5202ms
+2020-12-30 19:24:59.292 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 19:25:01.341 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 19:25:01.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 176.3203ms
+2020-12-30 19:25:01.733 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 19:25:01.870 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.4469ms
+2020-12-30 19:25:15.741 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 232
+2020-12-30 19:25:15.770 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:15.803 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:25:16.150 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:25:16.267 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 19:25:16.281 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 19:25:16.328 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 516.8062ms
+2020-12-30 19:25:16.330 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:16.335 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 232 - 201 - application/json;+charset=utf-8 593.7048ms
+2020-12-30 19:25:25.953 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Applicant/1 application/json 232
+2020-12-30 19:25:25.956 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:25.960 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:25:25.994 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:25:26.146 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 19:25:26.151 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 188.2211ms
+2020-12-30 19:25:26.154 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:26.157 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Applicant/1 application/json 232 - 200 - application/json;+charset=utf-8 203.8625ms
+2020-12-30 19:25:50.163 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 233
+2020-12-30 19:25:50.165 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:50.167 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:25:50.176 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:25:50.178 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 19:25:50.181 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 19:25:50.183 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 14.2029ms
+2020-12-30 19:25:50.186 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:50.188 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 233 - 201 - application/json;+charset=utf-8 24.6253ms
+2020-12-30 19:25:57.468 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Applicant/2 application/json 233
+2020-12-30 19:25:57.471 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:57.472 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:25:57.474 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:25:57.479 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 19:25:57.481 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 6.4809ms
+2020-12-30 19:25:57.482 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:25:57.484 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Applicant/2 application/json 233 - 200 - application/json;+charset=utf-8 16.5502ms
+2020-12-30 19:34:16.596 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 19:34:18.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 19:34:18.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 118.1995ms
+2020-12-30 19:34:18.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 19:34:18.698 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.5208ms
+2020-12-30 19:34:20.755 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Applicant/2 application/json 233
+2020-12-30 19:34:20.790 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:34:20.823 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:34:21.193 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:40:55.592 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 19:40:57.336 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 19:40:57.448 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 113.8429ms
+2020-12-30 19:40:57.586 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 19:40:57.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.8778ms
+2020-12-30 19:40:58.820 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Applicant/2 application/json 233
+2020-12-30 19:40:58.849 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:40:58.884 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 19:40:59.229 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 19:40:59.458 +05:30 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-30 19:40:59.474 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 580.8398ms
+2020-12-30 19:40:59.478 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 19:40:59.484 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Applicant/2 application/json 233 - 400 - application/json;+charset=utf-8 663.4896ms
+2020-12-30 20:45:25.530 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 20:45:28.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 20:45:28.200 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 201.5700ms
+2020-12-30 20:45:28.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 20:45:28.593 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.8764ms
+2020-12-30 20:45:42.800 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 233
+2020-12-30 20:45:42.868 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:45:42.978 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 20:45:44.588 +05:30 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Validation.ValidationErrorResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-30 20:45:44.639 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 1636.7675ms
+2020-12-30 20:45:44.646 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:45:44.657 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 233 - 400 - application/json;+charset=utf-8 1852.6917ms
+2020-12-30 20:47:15.604 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 248
+2020-12-30 20:47:15.610 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:47:15.616 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 20:47:16.345 +05:30 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Validation.ValidationErrorResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-30 20:47:16.351 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 729.5848ms
+2020-12-30 20:47:16.356 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:47:16.361 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 248 - 400 - application/json;+charset=utf-8 757.5587ms
+2020-12-30 20:47:28.400 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 257
+2020-12-30 20:47:28.402 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:47:28.405 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 20:47:30.348 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 20:47:30.715 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 20:47:30.736 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 20:47:30.835 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 2425.384ms
+2020-12-30 20:47:30.840 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:47:30.850 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 257 - 201 - application/json;+charset=utf-8 2447.6320ms
+2020-12-30 20:47:45.677 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Applicant/1 application/json 257
+2020-12-30 20:47:45.680 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:47:45.685 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 20:47:45.731 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 20:47:45.977 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 20:47:45.983 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 294.8437ms
+2020-12-30 20:47:45.986 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:47:45.990 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Applicant/1 application/json 257 - 200 - application/json;+charset=utf-8 312.8756ms
+2020-12-30 20:52:15.330 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Applicant/12 application/json 249
+2020-12-30 20:52:15.349 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:52:15.353 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 20:52:15.369 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 20:52:15.494 +05:30 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-30 20:52:15.498 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 142.1155ms
+2020-12-30 20:52:15.501 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 20:52:15.503 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Applicant/12 application/json 249 - 400 - application/json;+charset=utf-8 175.6324ms
+2020-12-30 21:26:26.401 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 21:26:28.200 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 21:26:28.326 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 131.3690ms
+2020-12-30 21:26:28.488 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 21:26:28.653 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.7941ms
+2020-12-30 21:26:38.441 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 249
+2020-12-30 21:26:38.529 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:26:38.605 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 21:26:41.621 +05:30 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Validation.ValidationErrorResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-30 21:26:41.669 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 3040.4474ms
+2020-12-30 21:26:41.677 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:26:41.687 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 249 - 400 - application/json;+charset=utf-8 3246.1128ms
+2020-12-30 21:26:46.921 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 252
+2020-12-30 21:26:46.924 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:26:46.928 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 21:26:48.863 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 21:26:49.175 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 21:26:49.195 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 21:26:49.287 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 2353.419ms
+2020-12-30 21:26:49.292 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:26:49.301 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 252 - 201 - application/json;+charset=utf-8 2379.5199ms
+2020-12-30 21:26:59.028 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2020-12-30 21:26:59.035 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:26:59.046 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 21:26:59.115 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 21:26:59.528 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 21:26:59.540 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 488.7472ms
+2020-12-30 21:26:59.544 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:26:59.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 524.9220ms
+2020-12-30 21:26:59.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2020-12-30 21:26:59.620 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 404 0 - 3.1217ms
+2020-12-30 21:30:57.705 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-30 21:30:59.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2020-12-30 21:31:00.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 181.2127ms
+2020-12-30 21:31:00.342 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2020-12-30 21:31:00.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 159.4785ms
+2020-12-30 21:32:52.032 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 250
+2020-12-30 21:32:52.136 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:32:52.238 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 21:32:53.707 +05:30 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Validation.ValidationErrorResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-12-30 21:32:53.757 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 1496.7677ms
+2020-12-30 21:32:53.764 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:32:53.774 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 250 - 400 - application/json;+charset=utf-8 1740.3360ms
+2020-12-30 21:33:01.177 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 254
+2020-12-30 21:33:01.180 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:33:01.184 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 21:33:02.661 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 21:33:02.976 +05:30 [INF] Saved 1 entities to in-memory store.
+2020-12-30 21:33:02.999 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 21:33:03.116 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 1925.097ms
+2020-12-30 21:33:03.121 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:33:03.130 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 254 - 201 - application/json;+charset=utf-8 1950.1529ms
+2020-12-30 21:33:16.818 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2020-12-30 21:33:16.823 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:33:16.832 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2020-12-30 21:33:16.889 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2020-12-30 21:33:17.192 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-30 21:33:17.204 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 367.3771ms
+2020-12-30 21:33:17.209 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2020-12-30 21:33:17.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 396.2606ms

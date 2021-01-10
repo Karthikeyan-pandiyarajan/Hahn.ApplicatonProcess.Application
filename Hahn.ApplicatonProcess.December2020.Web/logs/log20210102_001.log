@@ -1,0 +1,608 @@
+2021-01-02 12:35:40.489 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:35:40.493 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 17.9203ms
+2021-01-02 12:35:40.523 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:35:40.527 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:35:40.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 81.0035ms
+2021-01-02 12:35:40.537 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 51.0397ms
+2021-01-02 12:35:40.542 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:35:40.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 96.5914ms
+2021-01-02 12:36:29.116 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 12:36:29.117 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 12:36:29.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 12:36:29.123 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:36:29.125 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:36:29.128 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:36:29.131 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 14.1740ms
+2021-01-02 12:36:29.132 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:36:29.135 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:36:29.139 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:36:29.141 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:36:29.143 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:36:29.174 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:36:29.177 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 12:36:29.179 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:36:29.182 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 38.7062ms
+2021-01-02 12:36:29.184 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 39.8934ms
+2021-01-02 12:36:29.186 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:36:29.189 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:36:29.192 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 76.4470ms
+2021-01-02 12:36:29.194 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 73.7956ms
+2021-01-02 12:37:19.925 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Applicant application/json 252
+2021-01-02 12:37:19.928 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:37:19.930 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:37:19.933 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:37:19.935 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 12:37:19.938 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 5.2102ms
+2021-01-02 12:37:19.940 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:37:19.943 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Applicant application/json 252 - 200 - application/json;+charset=utf-8 17.1840ms
+2021-01-02 12:38:54.417 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 12:38:54.420 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:38:54.430 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 12:38:54.431 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 12:38:54.434 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:38:54.437 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:38:54.440 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:38:54.443 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:38:54.446 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:38:54.450 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:38:54.451 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:38:54.454 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:38:54.488 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:38:54.491 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:38:54.494 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 12:38:54.496 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:38:54.499 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 40.9629ms
+2021-01-02 12:38:54.503 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 45.0143ms
+2021-01-02 12:38:54.537 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:38:54.540 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:38:54.545 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 125.1830ms
+2021-01-02 12:38:54.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 122.9608ms
+2021-01-02 12:38:54.550 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 12:38:54.560 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 108.0817ms
+2021-01-02 12:38:54.563 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:38:54.565 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 145.8250ms
+2021-01-02 12:39:35.011 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 12:39:35.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 12:39:35.016 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 12:39:35.018 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:39:35.020 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:39:35.022 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:39:35.025 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:39:35.028 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:39:35.030 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:39:35.033 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:39:35.036 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:39:35.038 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 26.4090ms
+2021-01-02 12:39:35.041 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:39:35.043 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 12:39:35.047 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 12.6586ms
+2021-01-02 12:39:35.051 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:39:35.054 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:39:35.059 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 25.3103ms
+2021-01-02 12:39:35.064 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 48.3419ms
+2021-01-02 12:39:35.066 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:39:35.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 58.4547ms
+2021-01-02 12:40:25.310 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 149
+2021-01-02 12:40:25.313 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:40:25.315 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:40:25.990 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:40:26.002 +05:30 [INF] Saved 1 entities to in-memory store.
+2021-01-02 12:40:26.008 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:40:26.017 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 695.3081ms
+2021-01-02 12:40:26.022 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:40:26.027 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 149 - 201 - application/json;+charset=utf-8 714.4471ms
+2021-01-02 12:43:11.403 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 12:43:11.409 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:43:11.412 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 12:43:11.416 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 12:43:11.419 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:43:11.423 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:43:11.427 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:43:11.432 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:43:11.436 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:43:11.443 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 19.6342ms
+2021-01-02 12:43:11.445 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:43:11.450 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:43:11.457 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 12:43:11.462 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:43:11.468 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 26.5711ms
+2021-01-02 12:43:11.472 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:43:11.476 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 74.2873ms
+2021-01-02 12:43:11.480 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:43:11.486 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 30.4195ms
+2021-01-02 12:43:11.490 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:43:11.494 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 84.7232ms
+2021-01-02 12:44:44.094 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 12:44:44.101 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 12:44:44.105 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:44:44.109 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:44:44.118 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:44:44.121 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:44:44.125 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 12:44:44.129 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:44:44.130 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:44:44.151 +05:30 [INF] CORS policy execution successful.
+2021-01-02 12:44:44.156 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:44:44.161 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:44:44.164 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:44:44.171 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 12:44:44.174 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:44:44.178 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:44:44.182 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 45.0899ms
+2021-01-02 12:44:44.188 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 46.6357ms
+2021-01-02 12:44:44.191 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:44:44.194 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:44:44.200 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 105.6080ms
+2021-01-02 12:44:44.203 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 108.8307ms
+2021-01-02 12:44:44.206 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 12:44:44.210 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 30.3525ms
+2021-01-02 12:44:44.213 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:44:44.217 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 95.3712ms
+2021-01-02 12:46:43.098 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 149
+2021-01-02 12:46:43.101 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:46:43.104 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 12:46:43.768 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 12:46:43.773 +05:30 [INF] Saved 1 entities to in-memory store.
+2021-01-02 12:46:43.778 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 12:46:43.782 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 673.9817ms
+2021-01-02 12:46:43.786 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 12:46:43.791 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 149 - 201 - application/json;+charset=utf-8 690.9022ms
+2021-01-02 13:23:39.441 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 13:23:39.444 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:23:39.446 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 13:23:39.450 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:23:39.452 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:23:39.455 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:23:39.458 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 15.6795ms
+2021-01-02 13:23:39.460 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:23:39.462 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:23:39.467 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 13:23:39.468 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 13:23:39.473 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 13:23:39.475 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 13:23:39.479 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 13:23:39.485 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 13:23:39.488 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 15.6581ms
+2021-01-02 13:23:39.491 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 19.1744ms
+2021-01-02 13:23:39.494 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:23:39.498 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:23:39.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 57.3550ms
+2021-01-02 13:23:39.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 61.4205ms
+2021-01-02 13:26:11.647 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:26:11.656 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:26:11.675 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 13:26:11.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 13:26:11.682 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:26:11.689 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 70.3124ms
+2021-01-02 13:26:11.697 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:26:11.704 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:26:11.709 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 13:26:11.713 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:26:11.727 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 13:26:11.731 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 13:26:11.742 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 13:26:11.746 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 31.8171ms
+2021-01-02 13:26:11.753 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 13:26:11.756 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:26:11.760 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 100.0450ms
+2021-01-02 13:26:11.764 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 13:26:11.768 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 33.377ms
+2021-01-02 13:26:11.773 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:26:11.777 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 114.7464ms
+2021-01-02 13:32:57.606 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:32:57.609 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 13:32:57.611 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:32:57.614 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant/1 - -
+2021-01-02 13:32:57.617 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:32:57.621 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 17.1779ms
+2021-01-02 13:32:57.622 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:32:57.625 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:32:57.627 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:32:57.630 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 13:32:57.633 +05:30 [INF] Route matched with {action = "GetApplicant", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicant(Int32) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 13:32:57.636 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 13:32:57.639 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 13:32:57.658 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 13:32:57.663 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 27.5263ms
+2021-01-02 13:32:57.666 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 13:32:57.669 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:32:57.672 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 36.4603ms
+2021-01-02 13:32:57.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 64.5500ms
+2021-01-02 13:32:57.678 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 13:32:57.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant/1 - - - 200 - application/json;+charset=utf-8 70.7672ms
+2021-01-02 13:50:48.369 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:50:48.373 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:50:48.377 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 6.6501ms
+2021-01-02 13:52:00.001 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:52:00.004 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:52:00.017 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 5.6409ms
+2021-01-02 13:52:19.864 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:52:19.867 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:52:19.870 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 7.1015ms
+2021-01-02 13:57:12.526 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:57:12.528 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:57:12.530 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 4.4025ms
+2021-01-02 13:59:05.348 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 13:59:05.351 +05:30 [INF] CORS policy execution successful.
+2021-01-02 13:59:05.355 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 6.7982ms
+2021-01-02 14:02:04.600 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 14:02:04.602 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:02:04.606 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 5.2562ms
+2021-01-02 14:03:32.045 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 14:03:32.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 14:03:32.049 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:03:32.051 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:03:32.055 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 8.5237ms
+2021-01-02 14:03:32.056 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:03:32.058 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:03:37.424 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 14:03:37.428 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 14:03:37.432 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 5370.1011ms
+2021-01-02 14:03:37.436 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:03:37.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 5394.3984ms
+2021-01-02 14:07:28.535 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 14:07:30.624 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 14:07:30.894 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 274.8780ms
+2021-01-02 14:07:31.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 14:07:31.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 262.3324ms
+2021-01-02 14:07:36.872 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 149
+2021-01-02 14:07:36.959 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:07:37.061 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:07:44.909 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 14:07:45.066 +05:30 [INF] Saved 1 entities to in-memory store.
+2021-01-02 14:07:45.096 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 14:07:45.179 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 8106.5629ms
+2021-01-02 14:07:45.182 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:07:45.187 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 149 - 201 - application/json;+charset=utf-8 8317.4836ms
+2021-01-02 14:08:08.582 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 14:08:08.583 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 14:08:08.598 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:08:08.598 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:08:08.602 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:08:08.608 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 20.3950ms
+2021-01-02 14:08:08.618 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:08:11.648 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 14:08:11.902 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 14:08:11.917 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 3293.7596ms
+2021-01-02 14:08:11.922 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:08:11.929 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 3344.8510ms
+2021-01-02 14:11:23.614 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 14:11:25.566 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 14:11:25.765 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 202.6231ms
+2021-01-02 14:11:25.960 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 14:11:26.181 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.2801ms
+2021-01-02 14:11:29.668 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 149
+2021-01-02 14:11:29.747 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:11:29.831 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:11:34.358 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 14:11:34.700 +05:30 [INF] Saved 1 entities to in-memory store.
+2021-01-02 14:11:34.744 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 14:11:34.789 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 4938.3506ms
+2021-01-02 14:11:34.794 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:11:34.804 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 149 - 200 - application/json;+charset=utf-8 5135.6718ms
+2021-01-02 14:27:58.685 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:27:58.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 14:27:58.705 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:27:58.705 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:27:58.719 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:27:58.723 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:27:58.729 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:28:01.250 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:28:02.245 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 14:28:03.812 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 5073.0944ms
+2021-01-02 14:28:03.822 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:28:03.832 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 5142.2779ms
+2021-01-02 14:28:03.891 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 14:28:04.211 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 14:28:04.223 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 2968.0009ms
+2021-01-02 14:28:04.230 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:28:04.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 5550.0423ms
+2021-01-02 14:29:32.675 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:29:32.680 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:29:32.684 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:29:32.689 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:29:45.187 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 14:29:45.189 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 12498.1767ms
+2021-01-02 14:29:45.192 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:29:45.194 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 12520.9341ms
+2021-01-02 14:37:41.235 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:37:41.239 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:37:41.245 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:37:41.250 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:38:08.664 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 14:38:08.677 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 27415.6608ms
+2021-01-02 14:38:08.684 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:38:08.695 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 27456.0197ms
+2021-01-02 14:39:47.227 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 14:39:48.686 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 14:39:48.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 132.4476ms
+2021-01-02 14:39:48.981 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 14:39:49.087 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.9684ms
+2021-01-02 14:39:54.916 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:39:54.927 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:39:54.976 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:39:55.027 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:40:01.300 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 14:40:01.346 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 6297.763ms
+2021-01-02 14:40:01.353 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:40:01.361 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 6445.2433ms
+2021-01-02 14:40:50.751 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Applicant application/json 149
+2021-01-02 14:40:50.756 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:40:50.761 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Request.Request`1[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant]) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:41:05.397 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 14:41:05.637 +05:30 [INF] Saved 1 entities to in-memory store.
+2021-01-02 14:41:20.845 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.AddResponse, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-02 14:41:20.859 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 30093.039ms
+2021-01-02 14:41:20.863 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:41:20.871 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Applicant application/json 149 - 200 - application/json;+charset=utf-8 30121.2883ms
+2021-01-02 14:54:23.068 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 14:54:24.399 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 14:54:24.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 157.2926ms
+2021-01-02 14:54:24.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 14:54:24.826 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.6290ms
+2021-01-02 14:55:38.227 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:55:38.238 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:55:38.297 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:55:38.400 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:56:21.331 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 42914.7851ms
+2021-01-02 14:56:21.338 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:56:21.531 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post(String value) in C:\Users\Karthikeyan.P\Source\Repos\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web\Controllers\ApplicantController.cs:line 33
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-02 14:56:21.586 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 500 - text/plain 43358.1538ms
+2021-01-02 14:56:32.309 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:56:32.313 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:56:32.316 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:56:32.319 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:56:38.771 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 6449.1873ms
+2021-01-02 14:56:38.774 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:56:38.779 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post(String value) in C:\Users\Karthikeyan.P\Source\Repos\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web\Controllers\ApplicantController.cs:line 33
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-02 14:56:38.785 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 500 - text/plain 6476.2203ms
+2021-01-02 14:57:23.466 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 14:57:24.709 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 14:57:24.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 147.2361ms
+2021-01-02 14:57:25.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 14:57:25.133 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.4034ms
+2021-01-02 14:57:31.408 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:57:31.419 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:57:31.469 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:57:31.517 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:57:33.447 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 14:57:33.487 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 1952.5698ms
+2021-01-02 14:57:33.492 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:57:33.501 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 2091.1249ms
+2021-01-02 14:59:12.785 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 14:59:14.277 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 14:59:14.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 145.2481ms
+2021-01-02 14:59:14.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 14:59:14.709 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.3926ms
+2021-01-02 14:59:19.491 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:59:19.502 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:59:19.553 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:59:19.624 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:59:43.574 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 14:59:45.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 14:59:45.221 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 182.7870ms
+2021-01-02 14:59:45.429 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 14:59:45.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 117.5416ms
+2021-01-02 14:59:48.416 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:59:48.426 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:59:48.483 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:59:48.530 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 14:59:51.380 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 14:59:51.439 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 2890.5393ms
+2021-01-02 14:59:51.445 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:59:51.450 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 3034.6834ms
+2021-01-02 14:59:54.906 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149
+2021-01-02 14:59:54.911 +05:30 [INF] CORS policy execution successful.
+2021-01-02 14:59:54.922 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 14:59:54.927 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 15:00:05.196 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-02 15:00:05.205 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 10270.9148ms
+2021-01-02 15:00:05.212 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:00:05.220 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 149 - 415 - application/problem+json;+charset=utf-8 10310.6582ms
+2021-01-02 15:01:16.021 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 15:01:18.273 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 15:01:18.597 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 322.7910ms
+2021-01-02 15:01:18.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 15:01:19.103 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.6253ms
+2021-01-02 15:02:34.692 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 15:02:37.258 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 15:02:37.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 232.4723ms
+2021-01-02 15:02:37.808 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 15:02:37.937 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.2367ms
+2021-01-02 15:03:19.611 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 5
+2021-01-02 15:03:19.626 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:03:19.691 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:03:19.762 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 15:04:13.862 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 54068.2072ms
+2021-01-02 15:04:13.876 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:04:14.089 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post(String value) in C:\Users\Karthikeyan.P\Source\Repos\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web\Controllers\ApplicantController.cs:line 33
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-02 15:04:14.142 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 5 - 500 - text/plain 54526.4957ms
+2021-01-02 15:05:46.824 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Applicant - -
+2021-01-02 15:05:46.829 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:05:46.836 +05:30 [INF] Route matched with {action = "GetApplicants", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetApplicants() on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 15:05:54.683 +05:30 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantManager 
+2021-01-02 15:05:55.035 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Response.Response`1[[System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Application.Dto.Model.Applicant, Hahn.ApplicatonProcess.December2020.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-01-02 15:05:55.060 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web) in 8220.1965ms
+2021-01-02 15:05:55.064 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.GetApplicants (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:05:55.072 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Applicant - - - 200 - application/json;+charset=utf-8 8248.5483ms
+2021-01-02 15:05:55.301 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2021-01-02 15:05:55.308 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 404 0 - 6.2373ms
+2021-01-02 15:11:50.047 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:11:50.055 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:11:50.061 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 11.5662ms
+2021-01-02 15:12:01.605 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:12:01.610 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:12:01.617 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 8.7444ms
+2021-01-02 15:12:13.766 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 15:12:16.733 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 15:12:17.062 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 336.0915ms
+2021-01-02 15:12:17.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 15:12:17.629 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 245.2693ms
+2021-01-02 15:12:43.263 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:12:43.277 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:12:43.280 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 21.9555ms
+2021-01-02 15:12:52.715 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:12:52.719 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:12:52.723 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 8.0332ms
+2021-01-02 15:13:01.777 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:13:01.786 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:13:01.794 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 16.9286ms
+2021-01-02 15:13:49.202 +05:30 [INF] User profile is available. Using 'C:\Users\Karthikeyan.P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-02 15:13:51.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-02 15:13:51.839 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 317.5770ms
+2021-01-02 15:13:52.215 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-02 15:13:52.430 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.6675ms
+2021-01-02 15:14:05.756 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:14:05.769 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:14:05.773 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 19.5002ms
+2021-01-02 15:14:47.025 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:14:47.028 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:14:47.031 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 6.5947ms
+2021-01-02 15:15:03.157 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/Applicant - -
+2021-01-02 15:15:03.161 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:15:03.165 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/Applicant - - - 204 - - 9.6812ms
+2021-01-02 15:15:20.872 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 5
+2021-01-02 15:15:20.875 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:15:20.942 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:15:21.010 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 15:15:27.774 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 6746.47ms
+2021-01-02 15:15:27.783 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:15:27.928 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post(String value) in C:\Users\Karthikeyan.P\Source\Repos\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web\Controllers\ApplicantController.cs:line 33
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-02 15:15:27.965 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 5 - 500 - text/plain 7091.6481ms
+2021-01-02 15:15:50.511 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5001/Applicant text/plain;charset=UTF-8 5
+2021-01-02 15:15:50.514 +05:30 [INF] CORS policy execution successful.
+2021-01-02 15:15:50.517 +05:30 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:15:50.522 +05:30 [INF] Route matched with {action = "Post", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-02 15:16:00.279 +05:30 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web) in 9750.2465ms
+2021-01-02 15:16:00.286 +05:30 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-02 15:16:00.302 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Hahn.ApplicatonProcess.December2020.Web.Controllers.ApplicantController.Post(String value) in C:\Users\Karthikeyan.P\Source\Repos\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web\Controllers\ApplicantController.cs:line 33
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
